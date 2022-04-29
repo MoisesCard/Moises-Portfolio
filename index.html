@@ -2,34 +2,38 @@
 <html lang="en">
     <Head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initail-scale=1.0">
         <title>My Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/stylesheet.css" />
     </Head>
 
     <body>
       <header>
-        <h1>Moises Cardenas</h1>
+
+            <section class="name header-boxes">
+              <h1>
+                  <div>Hey,</div>
+                  I'm Moises Cardenas
+              </h1>
+            </section>
+
+            <section class="photo header-boxes">
+                <img src="./assets/images/Moises.JPG" width="200px" height="200px" alt="A photo of Moises">
+            </section>
         <!--Navigation-->
-        <nav>
-            <ul>
-                <li>
-                   About Me
-                </li>
-                <li>
-                  My Work
-                </li>
-                <li>
-                   Contact Me
-                </li>
-                <li>
-                  My Resume
-                </li>
-            </ul>
-        </nav>
+            <nav class="nav header-boxes">
+                <ul>
+                  <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">My Work</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">My Resume</a></li>
+                </ul>
+            </nav>
       </header>
 
     <!--hero/jumbotron-->
       <!--My Bio section-->
-      <section>
+      <section class="me">
           <h2>Get to know me</h2>
           <p>Hello! Welcome to my portfolio. I would like to tell you a bit about myself. For starters my name is Moises, but 
               many people call me Mo. I am currenty learning how to code in many languages. My hobbies include; photography, and other arts
@@ -38,21 +42,21 @@
       </section>
 
       <!--My Work Section-->
-      <section>
+      <section class="work">
           <h2>My Work</h2>
 
 
       </section>
 
       <!--Contact Section-->
-      <section>
+      <section class="contact">
           <h2>
               Contact Me
           </h2>
       </section>
 
       <!--My Resume Section-->
-      <section>
+      <section class="resume">
           <h2>
               My Resume
           </h2>
@@ -62,6 +66,6 @@
     </body>
 
     <footer>
-        
+
     </footer>
 </html>
