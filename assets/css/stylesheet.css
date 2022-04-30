@@ -1,45 +1,102 @@
-* {
+
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto+Slab&display=swap');
+
+
+  * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: rgb(255, 255, 255);
+    color: #777;
+    font-family:league Spartan
   }
+
 /*Header area*/
 
   header {
-    padding: 20px 35px;
+    padding: 10px 30px 30px 30px;
+    background-color: #000000;
+    
+  }
+
+  .nav{
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 20px;
+
+  }
+
+  nav ul{
+    padding:10px 0;
+    font-weight: lighter;
+  }
+
+  .nav li {
+    display:inline-flex;
+  }
+
+  .nav a {
+    padding:5px 25px;
+    color:white;
+    text-decoration:none
+  }
+
+  .nav a:hover{
+    color: rgb(177, 176, 176);
+    font-weight:bolder;
+  }
+
+  .name{
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+    font-family: Roboto Slab;
+    padding-top: 20px;
+    color: rgb(214, 214, 214);
+    border-bottom: 1px solid whitesmoke;  }
+  /*End of header*/
+
+  /*Start of content area*/
+
+  .content{
+    margin: 0;
+    padding:40px;
     background-color: #000000;
   }
-  .header-boxes {
-    display: inline-flex;
+
+  .content-section{
+    background-color: rgb(202, 202, 202);
+    padding: 10px;px;
+    margin:5px 0;
+    display: flex;
+    border:3px solid rgb(121, 120, 120)
   }
 
-  header h1 {
-    font-weight: bold;
-    font-size: 60px;
-    color: #ffffff;
-    display: block;
-    ;
-  }
-  .photo {
-    margin: 10px;
+  .content h2{
+    font-family: Roboto Slab;
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid #000000;
   }
 
-  header nav {
-    float: right;
-    display:block;
+  .bio{
+    padding: 10px;
   }
 
-  header nav ul li {
-    margin: 10px 0;
-    font-weight: lighter;
-    font-size: 15px;
-  }
+.content p {
+  display:flex;
+  font-size: 25px;
+  flex-direction: column;
+  text-align: center;
+  
+}
 
 
-  /*End of Header*/
-
-
-  body {
-      background-color: #27394f;
-  }
+.my-image{
+  width: 200px;
+  height: 200px;
+  margin:auto;
+  padding: 10px;
+  
+}
