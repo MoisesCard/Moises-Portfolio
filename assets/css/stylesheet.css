@@ -2,7 +2,9 @@
  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto+Slab&display=swap');
 
-
+html{
+  background-color: #000000;
+}
   * {
     margin: 0px;
     padding: 0px;
@@ -15,7 +17,7 @@
 
   header {
     padding: 10px 30px 30px 30px;
-    background-color: #000000;
+    
     
   }
 
@@ -59,8 +61,9 @@
   /*Start of content area*/
 
   .content{
-    margin: 0;
+    margin-bottom: 0;
     padding:40px;
+    padding-bottom: 3px;
     background-color: #000000;
   }
 
@@ -69,8 +72,9 @@
     padding: 10px;
     margin:5px;
     display:flex;
-    flex-direction:column ;
+    flex-direction:column;
   }
+  
 
   .content-section h2{
     font-family: Roboto Slab;
@@ -91,7 +95,6 @@
   font-size: 25px;
   flex-direction: column;
   text-align: center;
-  border: 1px dotted rgb(63, 63, 63);
   
 }
 .bio p{
@@ -129,6 +132,7 @@
   margin: auto;
 }
 
+
 .projects img {
   height:300px;
   width:300px;
@@ -149,3 +153,39 @@
     width: 100%;
   }
 }
+/*End of My Work section*/
+
+/*Start of Footer*/
+footer{
+  margin: 0;
+  padding:10px 40px 40px 40px;
+  
+}
+    /*Start of Contact Me section*/
+
+.contacts a{
+  text-decoration:none;
+}
+
+.contacts a:hover{
+  text-decoration: underline;
+}
+
+.contacts li{
+  display: inline-flex;
+  flex-direction: column;
+  padding:20px;
+  font-size:30px;
+  margin:5px 60px
+}
+
+@media screen and (max-width: 600px) {
+  .contacts li {
+    font-size:100%;
+    padding:10px 5px;
+  }
+}
+    /*End of Contact Me section*/
+
+
+/*End of Footer*/
