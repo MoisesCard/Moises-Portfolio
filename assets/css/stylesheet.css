@@ -170,6 +170,9 @@ footer{
 .contacts a:hover{
   text-decoration: underline;
 }
+.contacts ul{
+  text-align: center;
+}
 
 .contacts li{
   display: inline-flex;
@@ -177,6 +180,7 @@ footer{
   padding:20px;
   font-size:30px;
   margin:5px 60px
+
 }
 
 @media screen and (max-width: 600px) {
