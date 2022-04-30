@@ -66,37 +66,86 @@
 
   .content-section{
     background-color: rgb(202, 202, 202);
-    padding: 10px;px;
-    margin:5px 0;
-    display: flex;
-    border:3px solid rgb(121, 120, 120)
+    padding: 10px;
+    margin:5px;
+    display:flex;
+    flex-direction:column ;
   }
 
-  .content h2{
+  .content-section h2{
     font-family: Roboto Slab;
     color: #000000;
     text-align: center;
     font-size: 40px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 5px;
+    background-color: rgb(63, 63, 63) ;
   }
-
+/*Start of Get to know me section*/
   .bio{
     padding: 10px;
   }
 
-.content p {
+.bio article {
   display:flex;
   font-size: 25px;
   flex-direction: column;
   text-align: center;
+  border: 1px dotted rgb(63, 63, 63);
   
+}
+.bio p{
+  margin-top: 5px;
+}
+
+.my-image{
+  width: 300px;
+  height: 300px;
+  margin:auto;
+  border: 3px solid rgb(63, 63, 63);
 }
 
 
-.my-image{
-  width: 200px;
-  height: 200px;
-  margin:auto;
-  padding: 10px;
-  
+.my-image:hover{
+  width: 325px;
+  height: 325px;
+}
+
+@media screen and (max-width: 600px) {
+  .my-image {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .my-image:hover{
+    width: 100%;
+    height: 100%;
+  }
+}
+/*End of Get to know me section*/
+
+/*Start of My Work section*/
+.projects{
+  margin: auto;
+}
+
+.projects img {
+  height:300px;
+  width:300px;
+  border: 3px solid rgb(0, 0, 0);
+  margin:5px;
+}
+.projects a {
+  height:326px;
+  width: 325px;
+}
+.projects img:hover{
+  opacity: .5;
+
+}
+
+@media screen and (max-width: 600px) {
+  .projects img {
+    width: 100%;
+  }
 }
